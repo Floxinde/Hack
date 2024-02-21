@@ -2,10 +2,8 @@
     margin: 0px;
     padding: 0px;
 }
-@media (max-width:600px) {
-    img{
-        max-width: 1080px;
-    }
+img{
+    height:2400px;
 }
 
 
