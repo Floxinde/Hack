@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    position: relative;
+}
+
+.time{
+    position: absolute;
+    font-size: 48px;
+    left: 635px;
+    top: 1221px;
+    border: none;
+    font-family: Calibri, mini;
+    color: #272926;
+    font-weight: medium;
+}
+
+.butto {
+    position: absolute;
+    left: 140px;
+    top: 1640px;
+    width: 790px;
+    height: 40px;
+    background-color: #f4f5f7;
+    border: none;
+    cursor: pointer;
+  }
+.two{
+    font-size: 45px;
+    position: absolute;
+    left: 600px;
+    top: 1151px;
+    border: none;
+    cursor: pointer;
+    font-family: Calibri, mini;
+
+}
+.twine{
+    font-size: 45px;
+    position: absolute;
+    left: 550px;
+    top: 1023px;
+    border: none;
+    cursor: pointer;
+    font-family: Calibri, mini;
+}
+.last{
+    font-size: 45px;
+    position: absolute;
+    left: 647px;
+    top: 1298px;
+    border: none;
+    cursor: pointer;
+    font-family: Calibri, mini;
+}
+span{
+    color: #27292600;
+}
