@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="for-last.css">
+</head>
+<body>
+<img src="img/fourth1.png" alt="">
+<a href="lastf.html">
+<button class="butto"></button>
+</a>
+<div class="time" id="datetime" ></div>
+<div class="two">1030120387240907</div>
+<div class="twine">
+  <div dir="rtl">CASH OUT ТУЛПАР</div>
+  <div dir="rtl">ОПЛАТА<span>0</span>ЗА<span>0</span>ПРОЕЗД</div>
+</div>
+<div class="last">P0152312183999</div>
+  <script>
+        function updateDateTime() {
+            const now = new Date();
+            const day = now.getDate().toString().padStart(2, '0');
+            const month = (now.getMonth() + 1).toString().padStart(2, '0');
+            const year = now.getFullYear();
+            const hours = now.getHours().toString().padStart(2, '0');
+            const minutes = now.getMinutes().toString().padStart(2, '0');
+            const formattedDateTime = `${day}.${month}.${year},${hours}:${minutes}`;
+            document.getElementById('datetime').textContent = formattedDateTime;
+        }
+        updateDateTime();
+
+  </script>
+
+    <strong><input class="code" type="tel" dir="rtl">  </strong>
+  <p class="txt">Оплата услуг. Получатель: Тулпар - оплата за проезд. <span class="span1">........</span> /17.00 0194b4c6-7da6-711b-aa18-141489207212 Сумма 17.00 KGS
+  </p>
+</body>
+</html>

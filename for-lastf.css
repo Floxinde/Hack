@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Calibri, mini;
+
+}
+img{
+    position: relative;
+}
+.inpu{
+    position: absolute;
+    font-size: 45px;
+    left: 792px;
+    top: 1280px;
+    width: 200px;
+    border: none;
+}
+.two{
+    font-size: 45px;
+    position: absolute;
+    left: 600px;
+    top: 1047px;
+    border: none;
+    cursor: pointer;
+    font-family: Calibri, mini;
+
+}
+.twine{
+    font-size: 45px;
+    position: absolute;
+    left: 550px;
+    top: 920px;
+    border: none;
+    cursor: pointer;
+    font-family: Calibri, mini;
+}
+.last{
+    font-size: 45px;
+    position: absolute;
+    left: 647px;
+    top: 1194px;
+    border: none;
+    cursor: pointer;
+    font-family: Calibri, mini;
+}
+span{
+    color: #27292600;
+}
+.nupi{
+    position: absolute;
+    font-size: 45px;
+    left: 492px;
+    top: 1120px;
+    width: 500px;
+    border: none;
+}
